@@ -1,0 +1,17 @@
+{
+  "name": "chat-interface",
+  "version": "1.0.0",
+  "description": "ChatGPT style chat interface with analysis server integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "vercel-build": "echo 'Building...'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 

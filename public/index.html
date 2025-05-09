@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="server-config">
+            <input type="text" id="serverUrl" value="https://485a-34-125-12-213.ngrok-free.app" placeholder="분석 서버 URL">
+            <button onclick="updateServerUrl()">서버 URL 업데이트</button>
+        </div>
+        <div class="chat-container">
+            <div class="chat-messages" id="chatMessages">
+                <!-- 메시지들이 여기에 추가됩니다 -->
+            </div>
+            <div class="chat-input-container">
+                <textarea id="userInput" placeholder="메시지를 입력하세요..." rows="1"></textarea>
+                <button onclick="sendMessage()">전송</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
