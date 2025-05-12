@@ -1,0 +1,20 @@
+pandas==2.2.2
+huggingface_hub==0.30.2
+datasets==3.5.0
+
+# 파인튜닝 라이브러리
+numpy==2.0.2 
+scipy==1.14.1 
+accelerate==1.6.0 
+peft==0.15.2 
+bitsandbytes==0.45.5 
+transformers==4.51.3 
+trl==0.16.1 
+datasets==3.5.0 
+tensorboard==2.19.0
+
+# 서버 배포 라이브러리
+uvicorn==0.34.2
+fastapi==0.115.12
+nest-asyncio==1.6.0
+pyngrok==7.2.8
